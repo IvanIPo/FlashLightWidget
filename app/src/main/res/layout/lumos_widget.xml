@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widgetLayout"
+    style="@style/Widget.Lumos.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/Theme.Lumos.AppWidgetContainer">
+
+    <ImageButton
+        android:id="@+id/imageButtonWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:contentDescription="@string/main_button_of_widget"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_bulb_off_transparent" />
+</RelativeLayout>

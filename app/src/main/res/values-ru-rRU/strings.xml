@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_description" translatable="false">Этот экран необходим для проверки разрешения на использование камеры, поскольку вспышка является её частью</string>
+    <string name="app_widget_description">Это описание виджета</string>
+    <string name="main_button_of_widget">Основная кнопка виджета</string>
+</resources>

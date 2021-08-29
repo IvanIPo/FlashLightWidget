@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Lumos</string>
+    <string name="screen_description">This screen is required to check permission to  use the camera, since the flash is part of it</string>
+    <string name="add_widget" translatable="false">OK</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="main_button_of_widget">Main button of widget</string>
+</resources>
